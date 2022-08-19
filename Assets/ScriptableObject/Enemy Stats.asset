@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81fc5683f35105c46920fd02d2f1de45, type: 3}
+  m_Name: Enemy Stats
+  m_EditorClassIdentifier: 
+  runSpeed: 0.7
+  damage: 10
+  fireDistance: 1.8
+  nextFire: 0
+  fireRate: 0.5
+  rotateTime: 5
+  goingBetweenTwoTransformsValue: {x: 220, y: -40}

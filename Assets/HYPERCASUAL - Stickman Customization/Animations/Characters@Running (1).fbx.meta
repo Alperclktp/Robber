@@ -1,0 +1,902 @@
+fileFormatVersion: 2
+guid: ef47372f6f286b44d8a37351773ac1f0
+ModelImporter:
+  serializedVersion: 21202
+  internalIDToNameTable:
+  - first:
+      74: -203655887218126122
+    second: Running (1)
+  - first:
+      74: -3218887629276738832
+    second: Stick_Running
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Stick_Running
+      takeName: mixamo.com
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thigh.L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thigh.R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shin.L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shin.R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot.L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot.R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spine.001
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spine.002
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shoulder.L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shoulder.R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upper_arm.L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upper_arm.R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: forearm.L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: forearm.R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand.L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand.R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: toe.L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: toe.R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spine.003
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Characters@Running (1)(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: metarig
+      parentName: Characters@Running (1)(Clone)
+      position: {x: 0.026195444, y: -0.056323964, z: -0.08277655}
+      rotation: {x: -0.6727472, y: -0.029379223, z: -0.0066138054, w: 0.7392593}
+      scale: {x: 100, y: 100, z: 100}
+    - name: pelvis
+      parentName: metarig
+      position: {x: -0.00005011672, y: 0.0004875624, z: 0.0068319933}
+      rotation: {x: 0.7585131, y: 0.029969227, z: 0.0029522753, w: 0.6509617}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine.001
+      parentName: pelvis
+      position: {x: 1.435504e-17, y: 0.0012657808, z: 5.2154064e-10}
+      rotation: {x: -0.07808881, y: 0.00000012293457, z: 0.000000027939674, w: 0.9969464}
+      scale: {x: 1, y: 0.9999925, z: 0.9999993}
+    - name: spine.002
+      parentName: spine.001
+      position: {x: -1.1773622e-17, y: 0.0015170038, z: -2.0372681e-11}
+      rotation: {x: -0.056131296, y: 0.0000000012739888, z: 0.0000000063008123, w: 0.9984234}
+      scale: {x: 1, y: 0.99999404, z: 1.0000052}
+    - name: spine.003
+      parentName: spine.002
+      position: {x: -2.4886504e-18, y: 0.002013382, z: 2.3283063e-11}
+      rotation: {x: -0.000047925852, y: -0.0000000020925983, z: 0.0000000015908349,
+        w: 1}
+      scale: {x: 1, y: 1.0000029, z: 1.0000044}
+    - name: neck
+      parentName: spine.003
+      position: {x: 1.2895179e-12, y: 0.002247252, z: 0.000005409615}
+      rotation: {x: 0.28669018, y: 0.00000000748595, z: -0.00000006740442, w: 0.9580234}
+      scale: {x: 1, y: 1.0000355, z: 0.999953}
+    - name: head
+      parentName: neck
+      position: {x: -2.7160354e-11, y: 0.0005565047, z: -0.00011391762}
+      rotation: {x: -0.2748791, y: -0.0000000038354573, z: 0.00000006478698, w: 0.9614788}
+      scale: {x: 1, y: 1.00034, z: 0.9996673}
+    - name: shoulder.L
+      parentName: spine.003
+      position: {x: -0.0009379336, y: 0.0018208884, z: 0.0006445671}
+      rotation: {x: -0.5901781, y: 0.37553668, z: 0.37102732, w: 0.6107379}
+      scale: {x: 1.0000061, y: 1.0000099, z: 1.0000098}
+    - name: upper_arm.L
+      parentName: shoulder.L
+      position: {x: -0.00028539894, y: 0.0020092428, z: -0.00022412426}
+      rotation: {x: 0.13018331, y: -0.7238173, z: 0.1782574, w: 0.6537317}
+      scale: {x: 1.000034, y: 1.0001044, z: 0.9999032}
+    - name: forearm.L
+      parentName: upper_arm.L
+      position: {x: -0.0000000014016405, y: 0.0029930142, z: 7.4505804e-11}
+      rotation: {x: 0.046190906, y: 0.041418966, z: -0.02173411, w: 0.99783695}
+      scale: {x: 1.0000364, y: 1.0000585, z: 0.9999849}
+    - name: hand.L
+      parentName: forearm.L
+      position: {x: -4.1443854e-10, y: 0.00257812, z: 7.4505804e-11}
+      rotation: {x: -0.0046298355, y: -0.0025149137, z: -0.02694244, w: 0.9996231}
+      scale: {x: 1.0000392, y: 0.9999816, z: 1.0000144}
+    - name: shoulder.R
+      parentName: spine.003
+      position: {x: 0.0009379339, y: 0.0018208884, z: 0.00064456655}
+      rotation: {x: -0.59017754, y: -0.37553722, z: -0.3710278, w: 0.6107378}
+      scale: {x: 0.99999183, y: 0.9999858, z: 1.0000105}
+    - name: upper_arm.R
+      parentName: shoulder.R
+      position: {x: 0.00028539932, y: 0.0020092425, z: -0.00022412433}
+      rotation: {x: 0.13018534, y: 0.7238166, z: -0.17825447, w: 0.65373284}
+      scale: {x: 1.0000193, y: 1.0000812, z: 0.9999097}
+    - name: forearm.R
+      parentName: upper_arm.R
+      position: {x: -2.933666e-10, y: 0.0029930146, z: 7.4505804e-11}
+      rotation: {x: 0.0461875, y: -0.041417714, z: 0.021732276, w: 0.9978372}
+      scale: {x: 1.0000068, y: 0.999961, z: 1.000044}
+    - name: hand.R
+      parentName: forearm.R
+      position: {x: -0.0000000013248064, y: 0.0025781211, z: 3.7252902e-11}
+      rotation: {x: -0.0046299696, y: 0.002515003, z: 0.026942082, w: 0.9996232}
+      scale: {x: 1.000038, y: 1.0000534, z: 1.000007}
+    - name: thigh.L
+      parentName: pelvis
+      position: {x: -0.0019720735, y: -0.000009041402, z: 0.00036093305}
+      rotation: {x: 0.9821788, y: -0.0017085073, z: 0.0020159034, w: 0.1879302}
+      scale: {x: 1.0000001, y: 0.9999911, z: 0.999984}
+    - name: shin.L
+      parentName: thigh.L
+      position: {x: 6.628397e-11, y: 0.0025383062, z: 6.635673e-11}
+      rotation: {x: 0.15490909, y: -0.0019578817, z: -0.001775169, w: 0.98792523}
+      scale: {x: 0.9999999, y: 1.0000205, z: 1.0000197}
+    - name: foot.L
+      parentName: shin.L
+      position: {x: -3.4216507e-10, y: 0.0020401082, z: -8.13575e-11}
+      rotation: {x: -0.35274863, y: 0.013547103, z: 0.031926923, w: 0.93507516}
+      scale: {x: 1, y: 0.99998754, z: 1.000157}
+    - name: toe.L
+      parentName: foot.L
+      position: {x: 5.122274e-11, y: 0.0017309213, z: -1.0302756e-10}
+      rotation: {x: 0.030861177, y: 0.87007725, z: -0.49169376, w: -0.01582471}
+      scale: {x: 1.0000027, y: 1.0000608, z: 0.9998815}
+    - name: thigh.R
+      parentName: pelvis
+      position: {x: 0.0019720737, y: -0.000009041402, z: 0.00036093118}
+      rotation: {x: 0.9821788, y: 0.001708606, z: -0.002016322, w: 0.18793021}
+      scale: {x: 1, y: 1.0000004, z: 0.9999714}
+    - name: shin.R
+      parentName: thigh.R
+      position: {x: 1.1277734e-10, y: 0.0025383057, z: 1.0302756e-10}
+      rotation: {x: 0.15490893, y: 0.0019578806, z: 0.0017751626, w: 0.9879253}
+      scale: {x: 1.0000005, y: 1.0000497, z: 1.0000637}
+    - name: foot.R
+      parentName: shin.R
+      position: {x: -5.180309e-10, y: 0.0020401082, z: -1.3901967e-10}
+      rotation: {x: -0.3527484, y: -0.013547234, z: -0.031926926, w: 0.9350753}
+      scale: {x: 0.99999803, y: 0.99957496, z: 1.0003904}
+    - name: toe.R
+      parentName: foot.R
+      position: {x: -2.4447217e-11, y: 0.0017309205, z: 7.4505804e-11}
+      rotation: {x: -0.030861171, y: 0.87007725, z: -0.49169376, w: 0.015824927}
+      scale: {x: 1.0000126, y: 1.0001129, z: 0.9998645}
+    - name: legs_19
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: legs_20
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: legs_17
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: legs_14
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: legs_15
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: legs_1
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: legs_2
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: legs_3
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: legs_4
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: legs_16
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: legs_18
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: legs_5
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: legs_6
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: legs_7
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: legs_8
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: legs_9
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: legs_10
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: legs_11
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: legs_12
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: legs_13
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: body_1
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: body_2
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: body_3
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: body_4
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: body_5
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: body_6
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: body_7
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: body_8
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: body_9
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: body_10
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: body_11
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: body_12
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: body_13
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: body_14
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: body_15
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: body_16
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: body_17
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: body_18
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: body_19
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: body_20
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: legs_blank
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: head1
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: body_blank
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: hat_18
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 2.1999998, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: hat_2
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 2.1999998, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: hat_3
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 2.1999998, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: hat_6
+      parentName: Characters@Running (1)(Clone)
+      position: {x: 5.820766e-11, y: 2.1999998, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: hat_13
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 2.1999998, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: hat_8
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 2.1999998, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: hat_10
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 2.1999998, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: hat_7
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 2.1999998, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: hat_9
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 2.1999998, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: hat_12
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 2.1999998, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: hat_17
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 2.1999998, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: hat_11
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 2.1999998, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: hat_19
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 2.1999998, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: hat_20
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 2.1999998, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: hat_5
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 2.1999998, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: hat_1
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 2.1999998, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: hat_16
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 2.1999998, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: hat_4
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 2.1999998, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: hat_14
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 2.1999998, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: hat_15
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 2.1999998, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: facial_accessory_1
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 1.7999998, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: facial_accessory_7
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 1.7999998, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: facial_accessory_5
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 1.7999998, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: facial_accessory_8
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 1.7999998, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: facial_accessory_2
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 1.7999998, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: facial_accessory_3
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 1.7999998, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: facial_accessory_4
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 1.7999998, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: facial_accessory_6
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 1.7999998, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: facial_accessory_9
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 1.7999998, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: facial_accessory_10
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 1.7999998, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: hair_1
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 1.9999998, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: hair_2
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 1.9999998, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: hair_3
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 1.9999998, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: hair_4
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 1.9999998, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: hair_5
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 1.9999998, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: hair_6
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 1.9999998, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: hair_10
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 1.9999998, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: hair_12
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 1.9999998, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: hair_13
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 1.9999996, z: 5.684342e-14}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: hair_14
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 1.9999996, z: 5.684342e-14}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: hair_15
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 1.9999996, z: 5.684342e-14}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: hair_16
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 1.9999998, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: hair_17
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 1.9999998, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: hair_19
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 1.9999998, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: hair_11
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 1.9999998, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: hair_18
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 1.9999998, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: hair_8
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 2.2999997, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: hair_9
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 1.9999998, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: hair_7
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 1.9999998, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: hair_20
+      parentName: Characters@Running (1)(Clone)
+      position: {x: -0, y: 1.9999998, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
